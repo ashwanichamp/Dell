@@ -3,4 +3,4 @@ RUN apt-update -y
 RUN apt install apache2 -y
 RUN apt install apache2-utils -y
 EXPOSE 80
-CMP["apache2ctl" , "D" , "FOREGROUND"]
+CMD ["apache2ctl" , "D" , "FOREGROUND"]
