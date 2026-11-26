@@ -33,4 +33,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: mahijs/prod-app:latest
+          tags: mahijs/prod-app:lat
