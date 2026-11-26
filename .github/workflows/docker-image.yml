@@ -30,7 +30,4 @@ jobs:
         with:
           push: true
           tags: ashwani1984/prod-app:latest
-        uses: docker/build-push-action@v6
-        with:
-          push: true
-          tags: mahijs/prod-app:lat
+       
